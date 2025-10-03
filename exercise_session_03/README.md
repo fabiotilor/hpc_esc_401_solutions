@@ -169,4 +169,13 @@ With 8 threads, the speedup is ~7.06, slightly below perfect linear scaling.
 Discussion:
 The parallelization via #pragma omp parallel for reduction(+ : sum) distributes the computation of the array across multiple threads, reducing the runtime almost proportionally to the number of threads.
 The slight deviation from perfect linear speedup at 8 threads is likely due to memory bandwidth limitations, cache contention, and OpenMP overhead.
-Further improvements could include optimizing memory access patterns (e.g., using structure-of-arrays instead of array-of-structures) or exploring vectorization with compiler flags like -O3 -march=native -ffast-math.
+Further improvements could include optimizing memory access
+ patterns (e.g., using structure-of-arrays instead of array-of-structures) or exploring vectorization with compiler flags like -O3 -march=native -ffast-math.
+
+
+
+# Exercise 3
+
+In some situations you can encounter what is called superlinear speedup. This is when a
+parallel program has a speedup greater than the number of processes.
+Commit: How can you explain such behaviour?
