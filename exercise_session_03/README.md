@@ -155,3 +155,18 @@ export OMP_NUM_THREADS=4
 
 srun ./sum_omp
 
+
+
+Plot speedup discussion:
+
+The speedup of the sum.c program when parallelized with OpenMP is shown in the plot speedup_sum.png. The speedup is defined as:
+Speedup = Execution with 1 thread / Execution with N threads	
+ 
+Observations:
+With 2 threads, the execution time is roughly halved, giving a speedup of ~1.96.
+With 4 threads, the speedup is ~3.93, which is close to ideal linear scaling.
+With 8 threads, the speedup is ~7.06, slightly below perfect linear scaling.
+Discussion:
+The parallelization via #pragma omp parallel for reduction(+ : sum) distributes the computation of the array across multiple threads, reducing the runtime almost proportionally to the number of threads.
+The slight deviation from perfect linear speedup at 8 threads is likely due to memory bandwidth limitations, cache contention, and OpenMP overhead.
+Further improvements could include optimizing memory access patterns (e.g., using structure-of-arrays instead of array-of-structures) or exploring vectorization with compiler flags like -O3 -march=native -ffast-math.
