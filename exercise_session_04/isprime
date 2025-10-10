@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+if [ $# -ne 1 ]; then
+    echo "ERROR: Please provide exactly one argument."
+    exit 1
+fi
+
+input="$1"
+
+if ! [[ "$input" =~ ^[0-9]+$ ]]; then
+    echo "ERROR: The given input is not a number: $input"
+    exit 1
+fi
+
+if [ "$input" -le 0 ]; then
+    echo "ERROR: The given input is not a positive integer: $input"
+    exit 1
+fi
+
+if [ "$input" -eq 1 ]; then
+    echo "1 is neither prime nor composite"
+    exit 0
+fi
+
+factor_output=$(factor "$input")
+word_count=$(echo "$factor_output" | wc -w)
+
+if [ "$word_count" -eq 2 ]; then
+    echo "$input is prime"
+else
+    echo "$input is composite"
+fi
+
