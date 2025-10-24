@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=cpi_omp        # Job name
+#SBATCH --account=uzh8            # Project account
+#SBATCH --partition=debug         # Queue
+#SBATCH --nodes=1                 # Single node
+#SBATCH --ntasks=1                # One MPI task
+#SBATCH --cpus-per-task=128       # 128 threads
+#SBATCH --time=00:05:00           # 5 minutes
+#SBATCH --output=output_omp.log   # Redirect stdout
+#SBATCH --error=errors_omp.log    # Redirect stderr
+
+export OMP_NUM_THREADS=128
+srun --cpu-bind=none ./cpi_omp
+
