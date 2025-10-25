@@ -2,6 +2,8 @@
 #include "init.h"
 #include "jacobi.h"
 #include "mpi_module.h"
+#include <mpi.h>
+#include "init.h"
 
 int main(int argc, char *argv[]){
 

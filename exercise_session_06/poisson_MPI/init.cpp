@@ -40,11 +40,19 @@ void readParameters(const char* file_name, params *param) {
  *
  * @return     Returns the allocated matrix
  */
-double** allocateGrid(int nx, int ny, double** M){
-    M = new double *[nx];
-    for (int i = 0; i < nx; i++){
-        M[i] = new double[ny];
+double** allocateGrid(int nx, int ny, double** M) {
+    M = new double*[nx];
+    M[0] = new double[nx * ny]; // contiguous block
+
+    for (int i = 1; i < nx; i++) {
+        M[i] = M[0] + i * ny;
     }
+
+    // optionally initialize to 0
+    for (int i = 0; i < nx; i++)
+        for (int j = 0; j < ny; j++)
+            M[i][j] = 0.0;
+
     return M;
 }
 
