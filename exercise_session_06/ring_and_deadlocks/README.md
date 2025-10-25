@@ -56,3 +56,9 @@ What advantage does the new communicator provide?
 -------------------------------------------------
 
 The primary advantage of using the **Cartesian Topology Communicator (`MPI_Cart_create`)** and **`MPI_Cart_shift`** is **programmer convenience and code portability**. It allows the programmer to quickly set up complex, periodic communication patterns (like rings or multi-dimensional grids) without manually calculating neighbor ranks, index arithmetic, or implementing custom logic for wrapping boundary conditions. This makes the code cleaner, less error-prone, and easier to scale to higher dimensions.
+
+
+Exercise 2: $\pi$ Approximation using the Leibniz Series (MPI)
+==================================================
+
+This analysis details the implementation of the $\pi$ approximation using the Leibniz infinite series, $\frac{\pi}{4} = \sum_{k=0}^{\infty} \frac{(-1)^k}{2k + 1}$, using parallel computation with MPI.
