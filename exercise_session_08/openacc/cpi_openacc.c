@@ -10,6 +10,7 @@ int main (int argc, const char *argv[]) {
     for (int j=0;j<5;j++){
         double sum = 0.0;
         double start = getTime();
+	#pragma acc parallel loop reduction(+:sum) private(x)
         for (i=0; i < steps; i++) {
             x = (i+0.5)*step;
             sum += 4.0 / (1.0+x*x);

@@ -1,0 +1,4 @@
+Attempting initial compilation of base code...
+/var/spool/slurmd/job1979901/slurm_script: line 10: nvcc: command not found
+Compiling for B=, T=
+/var/spool/slurmd/job1979901/slurm_script: line 20: nvcc: command not found
