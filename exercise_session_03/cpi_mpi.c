@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "mpi.h"
+#include "getTime.h"
 
 static long nSteps = 1000000000;
 static double PI25DT = 3.141592653589793238462643;
@@ -9,6 +10,9 @@ int main(int argc, char** argv){
     long i;
     double mypi, pi, h, sum, x;
     double tWStart, tWElapsed;
+    double tStart, tEnd;
+
+    tStart = getTime();
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD,&nProcs);
@@ -37,5 +41,10 @@ int main(int argc, char** argv){
         printf("Computed in %.4g seconds\n", tWElapsed);
     }
     MPI_Finalize();
+    tEnd = getTime();
+if (myRank == 0) {
+    printf("Execution time (getTime): %f seconds\n", tEnd - tStart);
+}
+
     return 0;
 }

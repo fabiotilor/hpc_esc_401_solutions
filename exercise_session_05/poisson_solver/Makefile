@@ -1,10 +1,27 @@
-CFLAGS=-O3 -ffast-math -mavx2
-CC=CC
+CC = icpx
 
-all: init.o io.o jacobi.o main
-init.o: init.cpp init.h
-io.o: io.cpp io.h
-jacobi.o: jacobi.cpp jacobi.h
-main: init.o io.o jacobi.o
-clean: 
-	rm -f main init.o io.o jacobi.o
+CFLAGS = -O3 -ffast-math -mavx2
+
+C_SRCS   = init.c jacobi.c norm_diff.c
+CPP_SRCS = main.cpp io.cpp
+
+C_OBJS   = $(C_SRCS:.c=.o)
+CPP_OBJS = $(CPP_SRCS:.cpp=.o)
+OBJS     = $(C_OBJS) $(CPP_OBJS)
+
+all: poisson_solver
+
+poisson_solver: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS) -lm
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f *.o poisson_solver
+
+
+

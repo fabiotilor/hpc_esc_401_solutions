@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=cpi_mpi
+#SBATCH --account=uzh8
+#SBATCH --partition=debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=128              # 128 MPI ranks
+#SBATCH --time=00:05:00
+#SBATCH --output=output_mpi.log   # Redirect stdout
+#SBATCH --error=errors_mpi.log    # Redirect stderr
+
+srun ./cpi_mpi
+
+
