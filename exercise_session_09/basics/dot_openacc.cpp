@@ -1,4 +1,9 @@
 #include <iostream>
+#include <cassert>
+#include <cmath>
+#include <cstdlib> // For rand()
+
+#include <omp.h>
 
 #define NO_CUDA
 #include "util.h"
@@ -19,7 +24,10 @@ double dot_gpu(const double *x, const double *y, int n) {
     double sum = 0;
     int i;
 
-    // TODO: Offload this loop to the GPU
+    // The dot product is a reduction operation: all threads calculate partial sums
+    // and those partial sums must be combined (reduced) into a final single variable (sum).
+    #pragma acc data copyin(x[0:n], y[0:n])
+    #pragma acc parallel loop reduction(+:sum)
     for (i = 0; i < n; ++i) {
         sum += x[i]*y[i];
     }
@@ -28,7 +36,7 @@ double dot_gpu(const double *x, const double *y, int n) {
 }
 
 int main(int argc, char **argv) {
-    size_t pow  = read_arg(argc, argv, 1, 2);
+    size_t pow  = read_arg(argc, argv, 1, 25);
     size_t n = 1 << pow;
 
     auto size_in_bytes = n * sizeof(double);
@@ -39,7 +47,7 @@ int main(int argc, char **argv) {
     auto x_h = malloc_host<double>(n, 2.);
     auto y_h = malloc_host<double>(n);
     for(auto i = 0; i < n; ++i) {
-        y_h[i] = rand() % 10;
+        y_h[i] = (double)(rand() % 10);
     }
 
     auto time_host = get_time();
@@ -53,5 +61,8 @@ int main(int argc, char **argv) {
               << (std::abs(expected - result) < 1.e-6 ? "success\n" : "failure\n");
     std::cout << "Host kernel took " << time_host << " s\n";
     std::cout << "GPU kernel took " << time_gpu << " s\n";
+    
+    free(x_h);
+    free(y_h);
     return 0;
 }
