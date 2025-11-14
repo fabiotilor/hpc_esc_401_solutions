@@ -1,0 +1,5 @@
+dispersion 1D test of length n = 1048580 : 8.00003MB
+item 2 differs (expected, found): 0.95823 != 0
+==== failure ====
+Host version took 0.547648 s (0.0010953 s/step)
+GPU version took 3.15508 s (0.00631015 s/step)
