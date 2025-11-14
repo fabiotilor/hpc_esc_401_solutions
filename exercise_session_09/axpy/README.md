@@ -11,3 +11,11 @@ axpy (openacc): 3.4019 s
 
 We can see that the GPU-version is about 54 times slower than the CPU-version, this is due to the memory-transfer overhead.
 
+
+**Exercise 2**
+
+-   **What is the problem with the naive approach?** The problem is that it uses fine-grained **data regions** inside the `nsteps`loop, forcing the 8MB data to be repeatedly copied between the Host (CPU) and Device (GPU) over **1,000 times** (twice per step), resulting in massive memory transfer overhead.
+
+    -   **What is the difference with the naive implementation?** The optimized `_nocopies` version uses a single, coarse-grained `#pragma acc data` region outside the loop, keeping all arrays permanently on the GPU and managing the ping-pong operation with device-side pointer manipulation, thereby eliminating all host-device copies inside the main loop.
+
+    -   **What is the difference in execution time?** Both GPU implementations, even the optimized `_nocopies` one (3.43s), are significantly slower than the OpenMP host version (0.55s), showing that the blur operation is severely **bandwidth-bound**and parallelism cannot overcome the high memory traffic inherent to the stencil calculation.
