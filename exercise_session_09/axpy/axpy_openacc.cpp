@@ -12,18 +12,18 @@ void axpy(int n, double alpha, const double *x, double* y) {
     }
 }
 
-// OpenACC implementation of axpy kernel
 void axpy_gpu(int n, double alpha, const double *x, double* y) {
 
     int i;
 
-    // TODO: offload this loop to the GPU
+    #pragma acc data copyin(x[0:n]), copy(y[0:n])
+    #pragma acc kernels
+    #pragma acc loop independent
     for(i = 0; i < n; ++i) {
         y[i] += alpha*x[i];
     }
 }
 
-// version informations
 void print_versions(void) {
 
 #ifdef _OPENMP
@@ -34,7 +34,6 @@ void print_versions(void) {
     #pragma omp parallel private(ompnumthreadid) shared(ompnumthreads1)
     {
         ompnumthreadid = omp_get_thread_num();
-        // #pragma omp barrier
         #pragma omp master
         {
             ompnumthreads1 = omp_get_num_threads();
@@ -50,9 +49,6 @@ void print_versions(void) {
     std::cout << "OPENACC version: " << _OPENACC << std::endl;
 #endif
 
-// MPI_Get_version()
-
-
 }
 
 int main(int argc, char** argv)
@@ -65,17 +61,13 @@ int main(int argc, char** argv)
     double* x = malloc_host<double>(n, 1.5);
     double* y = malloc_host<double>(n, 3.0);
 
-    // use dummy fields to avoid cache effects, which make results harder to
-    // interpret use 1<<24 to ensure that cache is completely purged for all n
     double* x_ = malloc_host<double>(n, 1.5);
     double* y_ = malloc_host<double>(n, 3.0);
 
-    // openmp version:
     auto start = get_time();
     axpy(n, 2.0, x_, y_);
     auto time_axpy_omp = get_time() - start;
 
-    // openacc version:
     start = get_time();
     axpy_gpu(n, 2.0, x, y);
     auto time_axpy_gpu = get_time() - start;
@@ -84,7 +76,6 @@ int main(int argc, char** argv)
     std::cout << "axpy (openmp): "  << time_axpy_omp << " s\n";
     std::cout << "axpy (openacc): " << time_axpy_gpu << " s\n";
 
-    // check for errors
     auto errors = 0;
     #pragma omp parallel for reduction(+:errors)
     for (auto i = 0; i < n; ++i) {
