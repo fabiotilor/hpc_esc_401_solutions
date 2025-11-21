@@ -10,93 +10,110 @@
 /* Size of a block */
 #define BLOCKSIZE 256
 
-__global__ void kernadd (float* mout, float* min1, float *min2, int nx, int ny)
+__global__ void kernadd(float* mout, float* min1, float* min2, int nx, int ny)
 {
-  int i, j, index;
-  index = blockDim.x*blockIdx.x+threadIdx.x;
-  j = index/nx;
-  i = index - j*nx;
-  if ((i < nx) && (j < ny))
-    mout[index] = min1[index] + min2[index];
-    
+    int i, j, index;
+    index = blockDim.x * blockIdx.x + threadIdx.x;
+
+    /* Boundary checking */
+    j = index / nx;
+    i = index - j * nx;
+
+    if ((i < nx) && (j < ny))
+        mout[index] = min1[index] + min2[index];
 }
 
+__global__ void kernadd_2d(float* mout, float* min1, float* min2, int nx, int ny)
+{
+    int x = blockIdx.x * blockDim.x + threadIdx.x;
+    int y = blockIdx.y * blockDim.y + threadIdx.y;
+
+    if (x < nx && y < ny) {
+        int index = y * nx + x;
+        mout[index] = min1[index] + min2[index];
+    }
+}
 
 /*******************************************************/
 /*  We initialize the vectors with random values       */
 /*******************************************************/
 
 void Init(float* mat, int nx, int ny) {
-  int i, j;
-  for (i = 0; i < nx; i++) {	/* 2D loop */
-    for (j = 0; j < ny; j++) {
-      mat[i+j*nx] = drand48 ();	/* position of cell (i,j) */
+    int i, j;
+    for (i = 0; i < nx; i++) {
+        for (j = 0; j < ny; j++) {
+            mat[i + j * nx] = drand48();
+        }
     }
-  }
 }
 
-
 /*******************************************************/
-/*            MAIN PROGRAM                             */
+/*                     MAIN PROGRAM                    */
 /*******************************************************/
 
-int main () {
-  int i=0, error=0, nx=NX, ny=NY;
-  float diff;
+int main() {
+    int i = 0, error = 0, nx = NX, ny = NY;
+    float diff;
+    int total_elements = nx * ny;
 
-  /* Matrix allocation */
-  float *mat_in1 = (float*) malloc(nx * ny * sizeof(float));
-  float *mat_in2 = (float*) malloc(nx * ny * sizeof(float));
-  float *mat_out = (float*) malloc(nx * ny * sizeof(float));
+    /* Matrix allocation on Host */
+    float *mat_in1 = (float*) malloc(total_elements * sizeof(float));
+    float *mat_in2 = (float*) malloc(total_elements * sizeof(float));
+    float *mat_out = (float*) malloc(total_elements * sizeof(float));
 
-  /* Matrix allocation on device */
-  float *mat_out_gpu, *mat_in1_gpu, *mat_in2_gpu;
-  /* TO DO : do the allocation below, using cudaMalloc()*/
-  
+    /* Matrix allocation on Device */
+    float *mat_out_gpu, *mat_in1_gpu, *mat_in2_gpu;
+    cudaMalloc((void**)&mat_in1_gpu, total_elements * sizeof(float));
+    cudaMalloc((void**)&mat_in2_gpu, total_elements * sizeof(float));
+    cudaMalloc((void**)&mat_out_gpu, total_elements * sizeof(float));
 
-  /* Matrix initialization */
-  Init(mat_in1, nx, ny);
-  Init(mat_in2, nx, ny);  
-  
-  /* TO DO : write below the instructions to copy it to the device */
+    /* Matrix initialization */
+    Init(mat_in1, nx, ny);
+    Init(mat_in2, nx, ny);
 
-  
-  /* TO DO : complete the number of blocks below */
-  int numBlocks = ...;
- 
-  /* TO DO : kernel invocation */
-  
-  
-  cudaDeviceSynchronize();
-  
-  /* We now transfer back the matrix from the device to the host */
-  /* TO DO : write cudaMemcpy() instruction below */
-  
-    
-  /* free memory */
-  cudaFree(mat_out_gpu);
-  cudaFree(mat_in1_gpu);
-  cudaFree(mat_in2_gpu);
+    /* Copy to device */
+    cudaMemcpy(mat_in1_gpu, mat_in1, total_elements * sizeof(float), cudaMemcpyHostToDevice);
+    cudaMemcpy(mat_in2_gpu, mat_in2, total_elements * sizeof(float), cudaMemcpyHostToDevice);
 
-  /* We now check that the result is correct */
+    dim3 threadsPerBlock(16, 16);
+    dim3 numBlocks(
+        (nx + threadsPerBlock.x - 1) / threadsPerBlock.x,
+        (ny + threadsPerBlock.y - 1) / threadsPerBlock.y
+    );
 
-  for (i=0; i< nx*ny; i++) {	/* No need for a 2D loop, actually ! */
-    diff = mat_out[i] - (mat_in1[i]+mat_in2[i]);
-    if (fabs(diff) > 0.0000001f) {
-      error = 1;
+    kernadd_2d<<<numBlocks, threadsPerBlock>>>(mat_out_gpu, mat_in1_gpu, mat_in2_gpu, nx, ny);
+
+    int numBlocks_1D = (total_elements + BLOCKSIZE - 1) / BLOCKSIZE;
+    kernadd<<<numBlocks_1D, BLOCKSIZE>>>(mat_out_gpu, mat_in1_gpu, mat_in2_gpu, nx, ny);
+
+    cudaDeviceSynchronize();
+
+    /* Copy back to host */
+    cudaMemcpy(mat_out, mat_out_gpu, total_elements * sizeof(float), cudaMemcpyDeviceToHost);
+
+    /* Free device memory */
+    cudaFree(mat_out_gpu);
+    cudaFree(mat_in1_gpu);
+    cudaFree(mat_in2_gpu);
+
+    /* Check correctness */
+    for (i = 0; i < total_elements; i++) {
+        diff = mat_out[i] - (mat_in1[i] + mat_in2[i]);
+        if (fabs(diff) > 1e-7f) {
+            error = 1;
+            break;
+        }
     }
-  }
 
-  if (error) {
-    printf("FAILED\n");
-  }
-  else {
-    printf("PASSED\n");
-  }
-  free (mat_in1);
-  free (mat_in2);
-  free (mat_out);
+    if (error)
+        printf("FAILED\n");
+    else
+        printf("PASSED\n");
+
+    free(mat_in1);
+    free(mat_in2);
+    free(mat_out);
+
+    return 0;
 }
-
-
 

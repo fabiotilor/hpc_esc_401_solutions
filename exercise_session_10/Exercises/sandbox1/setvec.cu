@@ -8,6 +8,7 @@
 __global__ void kern_set_val (float *gpu_ptr, float value, int n) {
   int i;
   //TO DO: evaluate the value of i 
+  i = blockIdx.x * blockDim.x + threadIdx.x;
   gpu_ptr[i] = value;
 }
 
@@ -24,11 +25,12 @@ int main () {
   cudaMalloc (&gpu_ptr, sizeof(float)*N);
 
   //TO DO : write kernel invocation here
-
+  int num_blocks = (N + BLOCKSIZE - 1) / BLOCKSIZE;
+kern_set_val<<<num_blocks, BLOCKSIZE>>>(gpu_ptr, value, N); 
   cudaDeviceSynchronize ();
 
   //TO DO : copy data to host
-
+   cudaMemcpy(ptr, gpu_ptr, sizeof(float)*N, cudaMemcpyDeviceToHost);
   cudaFree (gpu_ptr);
 
   /* Now check that it did what we want */
