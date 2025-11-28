@@ -137,3 +137,71 @@ For interactive, graphical performance analysis, run:
 
 
 The parts of the code that took the most CPU time are lines **39** and **40** within the `main` function of `nbody.cpp`, accounting for **23.2%** and **57.1%** of the total exclusive samples, respectively. This is likely due to these lines containing the **core computational loop** of the n-body simulation, where the forces between particles are calculated and integrated over time.
+
+
+
+
+
+
+
+
+
+**Exercise 2**
+
+
+Time with **sqrt():**
+
+real	0m12.835s
+user	0m12.828s
+sys	0m0.004s
+
+
+Time with **sqrtf():**
+
+real	0m7.420s
+user	0m7.404s
+sys	0m0.012s
+
+
+
+
+
+**Exercise 3**
+
+
+After vectorising flag:
+
+/usr/include/c++/12/bits/vector.tcc:515:30: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:412:42: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:404:32: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:404:32: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/vector.tcc:96:27: optimized: basic block part vectorized using 32 byte vectors
+
+
+Vectorisation report after adjustments:
+
+/usr/include/c++/12/bits/vector.tcc:699:31: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_algobase.h:921:22: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/vector.tcc:617:31: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:412:42: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:404:32: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/12/bits/random.tcc:404:32: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/12/bits/stl_vector.h:100:4: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/12/bits/stl_vector.h:100:4: optimized: basic block part vectorized using 32 byte vectors
+
+Time:
+
+real	0m7.047s
+user	0m7.035s
+sys	0m0.001s
+
+
+It runs faster but not much faster, I would say it behaved as expected.
+
