@@ -205,3 +205,54 @@ sys	0m0.001s
 
 It runs faster but not much faster, I would say it behaved as expected.
 
+
+
+
+
+
+
+
+
+**Exercise 4**
+
+Time for the vectorised loop:
+
+real	0m1.540s
+user	0m1.535s
+sys	0m0.001s
+
+
+
+
+
+**Exercise 5**
+
+There are no data dependencies between the iterations of the outer i loop that require synchronization.
+
+Read Access: Inside the i loop, you read the positions (plist.x[j], plist.y[j], etc.) for all particles. Since positions are only read, there is no conflict.
+
+Write Access: At the end of the i loop, you write to the acceleration fields (plist.ax[i], plist.ay[i], plist.az[i]). Since each iteration i writes to a unique index (i), no two threads will ever write to the same memory location.
+
+Local Variables: The temporary force accumulators (ax, ay, az) are declared inside the i loop and are therefore private to each iteration (and thus, private to each thread), so no synchronization is needed for them either.
+
+Since each thread is working on a distinct particle's acceleration, the loop is embarrassingly parallel.
+
+
+Time N = 50'000:
+
+real	0m0.075s
+user	0m6.152s
+sys	0m0.040s
+
+
+Time N = 500'000:
+
+real	0m2.032s
+user	3m9.606s
+sys	0m0.088s
+
+
+Real vs. User time:
+
+real	Wall-Clock Time	The actual time elapsed from the start to the end of the program. This is the time you wait. With 128 threads, this is the time that is significantly reduced by parallelization.
+user	Total CPU Time (User-Mode)	The sum of the CPU time consumed by all 128 threads while executing the application's code (not OS calls). This value is usually much higher than the real time because it accumulates the work done by 128 threads running concurrently.
