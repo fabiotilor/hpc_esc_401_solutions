@@ -1,0 +1,1203 @@
+Starting scaling tests...
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.0
+rm: cannot remove 'my_pi_cuda_60_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.1
+rm: cannot remove 'my_pi_cuda_60_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.2
+rm: cannot remove 'my_pi_cuda_60_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.3
+rm: cannot remove 'my_pi_cuda_60_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.4
+rm: cannot remove 'my_pi_cuda_60_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.5
+rm: cannot remove 'my_pi_cuda_60_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.6
+rm: cannot remove 'my_pi_cuda_60_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.7
+rm: cannot remove 'my_pi_cuda_60_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.8
+rm: cannot remove 'my_pi_cuda_60_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_60_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.9
+rm: cannot remove 'my_pi_cuda_60_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.10
+rm: cannot remove 'my_pi_cuda_120_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.11
+rm: cannot remove 'my_pi_cuda_120_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.12
+rm: cannot remove 'my_pi_cuda_120_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.13
+rm: cannot remove 'my_pi_cuda_120_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.14
+rm: cannot remove 'my_pi_cuda_120_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.15
+rm: cannot remove 'my_pi_cuda_120_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.16
+rm: cannot remove 'my_pi_cuda_120_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.17
+rm: cannot remove 'my_pi_cuda_120_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.18
+rm: cannot remove 'my_pi_cuda_120_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_120_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.19
+rm: cannot remove 'my_pi_cuda_120_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.20
+rm: cannot remove 'my_pi_cuda_180_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.21
+rm: cannot remove 'my_pi_cuda_180_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+srun: Step created for StepId=1979900.22
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.22
+rm: cannot remove 'my_pi_cuda_180_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.23
+rm: cannot remove 'my_pi_cuda_180_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.24
+rm: cannot remove 'my_pi_cuda_180_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.25
+rm: cannot remove 'my_pi_cuda_180_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.26
+rm: cannot remove 'my_pi_cuda_180_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.27
+rm: cannot remove 'my_pi_cuda_180_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.28
+rm: cannot remove 'my_pi_cuda_180_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_180_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.29
+rm: cannot remove 'my_pi_cuda_180_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.30
+rm: cannot remove 'my_pi_cuda_240_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.31
+rm: cannot remove 'my_pi_cuda_240_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.32
+rm: cannot remove 'my_pi_cuda_240_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.33
+rm: cannot remove 'my_pi_cuda_240_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.34
+rm: cannot remove 'my_pi_cuda_240_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.35
+rm: cannot remove 'my_pi_cuda_240_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.36
+rm: cannot remove 'my_pi_cuda_240_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.37
+rm: cannot remove 'my_pi_cuda_240_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.38
+rm: cannot remove 'my_pi_cuda_240_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_240_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.39
+rm: cannot remove 'my_pi_cuda_240_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.40
+rm: cannot remove 'my_pi_cuda_300_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.41
+rm: cannot remove 'my_pi_cuda_300_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.42
+rm: cannot remove 'my_pi_cuda_300_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.43
+rm: cannot remove 'my_pi_cuda_300_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.44
+rm: cannot remove 'my_pi_cuda_300_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.45
+rm: cannot remove 'my_pi_cuda_300_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.46
+rm: cannot remove 'my_pi_cuda_300_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.47
+rm: cannot remove 'my_pi_cuda_300_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.48
+rm: cannot remove 'my_pi_cuda_300_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_300_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.49
+rm: cannot remove 'my_pi_cuda_300_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.50
+rm: cannot remove 'my_pi_cuda_360_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.51
+rm: cannot remove 'my_pi_cuda_360_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.52
+rm: cannot remove 'my_pi_cuda_360_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.53
+rm: cannot remove 'my_pi_cuda_360_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.54
+rm: cannot remove 'my_pi_cuda_360_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.55
+rm: cannot remove 'my_pi_cuda_360_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.56
+rm: cannot remove 'my_pi_cuda_360_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.57
+rm: cannot remove 'my_pi_cuda_360_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.58
+rm: cannot remove 'my_pi_cuda_360_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_360_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.59
+rm: cannot remove 'my_pi_cuda_360_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.60
+rm: cannot remove 'my_pi_cuda_420_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.61
+rm: cannot remove 'my_pi_cuda_420_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.62
+rm: cannot remove 'my_pi_cuda_420_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.63
+rm: cannot remove 'my_pi_cuda_420_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.64
+rm: cannot remove 'my_pi_cuda_420_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.65
+rm: cannot remove 'my_pi_cuda_420_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.66
+rm: cannot remove 'my_pi_cuda_420_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.67
+rm: cannot remove 'my_pi_cuda_420_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.68
+rm: cannot remove 'my_pi_cuda_420_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_420_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.69
+rm: cannot remove 'my_pi_cuda_420_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_16: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.70
+rm: cannot remove 'my_pi_cuda_600_16': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_32: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.71
+rm: cannot remove 'my_pi_cuda_600_32': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_48: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.72
+rm: cannot remove 'my_pi_cuda_600_48': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_64: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.73
+rm: cannot remove 'my_pi_cuda_600_64': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_80: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.74
+rm: cannot remove 'my_pi_cuda_600_80': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_96: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.75
+rm: cannot remove 'my_pi_cuda_600_96': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_112: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.76
+rm: cannot remove 'my_pi_cuda_600_112': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_128: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.77
+rm: cannot remove 'my_pi_cuda_600_128': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_144: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.78
+rm: cannot remove 'my_pi_cuda_600_144': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Initial compilation of base code...
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+cp: cannot stat 'cpi_cuda.cu': No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+sed: can't read cpi_cuda_temp.cu: No such file or directory
+error: a uenv session is already running.
+It is not possible to call 'uenv start' or 'uenv run' inside a uenv session.
+You need to finish the current session by typing 'exit' or hitting '<ctrl-d>'.
+slurmstepd: error: execve(): /users/fdimeo/hpc_exercises/exercise_session_08/openacc/./my_pi_cuda_600_160: No such file or directory
+srun: error: nid006545: task 0: Exited with exit code 2
+srun: Terminating StepId=1979900.79
+rm: cannot remove 'my_pi_cuda_600_160': No such file or directory
+rm: cannot remove 'cpi_cuda_temp.cu': No such file or directory
+Scaling study complete. Results are in scaling_results.csv
