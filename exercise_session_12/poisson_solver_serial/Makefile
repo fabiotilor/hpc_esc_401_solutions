@@ -1,4 +1,4 @@
-CPPFLAGS=-O3 -ffast-math -mavx2
+CPPFLAGS=-O3 -ffast-math
 CC=CC
 
 all: init.o io.o jacobi.o main
